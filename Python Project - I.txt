@@ -15,3 +15,7 @@ Clearer error message in view_contacts(): The message is now "No contacts found!
 More descriptive phonebook() docstring: The docstring now clearly explains the application's functionality.
 Comments refined: The comments are now more concise and focus on explaining the why rather than the what (which should be clear from the code itself).
 
+Credits:
+- ChatGPT for helping with code suggestions and problem-solving.
+- YouTube and Gemini for providing valuable insights.
+- GeeksforGeeks for tutorials and explanations.
