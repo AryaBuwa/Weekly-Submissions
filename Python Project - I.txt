@@ -17,5 +17,5 @@ Comments refined: The comments are now more concise and focus on explaining the 
 
 Credits:
 - ChatGPT for helping with code suggestions and problem-solving.
-- YouTube and Gemini for providing valuable insights.
-- GeeksforGeeks for tutorials and explanations.
+- YouTube and Gemini for providing valuable insights on which function to use and how to use.
+- GeeksforGeeks for tutorials and explanations of Functions in Python.
