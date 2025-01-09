@@ -1,0 +1,17 @@
+This Python Project implements a simple command-line phonebook application. It allows users to:
+
+Add new contacts: Users can input a contact's name and phone number, which are stored in a dictionary.
+View all contacts: The application displays all saved contacts with their corresponding phone numbers.
+Exit the application: Users can choose to exit the program.
+The script uses functions to organize the code and improve readability. 
+Error handling is included to manage invalid user input. 
+This project demonstrates basic dictionary usage, input/output operations, and control flow in Python. 
+
+Key improvements in this version:
+Contacts dictionary initialization: The Contacts dictionary is now initialized outside the functions. 
+This is crucial; otherwise, the dictionary would be reset every time new_contact() is called.
+Docstrings: Added docstrings to functions to explain their purpose, which is best practice for code documentation.
+Clearer error message in view_contacts(): The message is now "No contacts found!" instead of a confusing message involving a potentially undefined name.
+More descriptive phonebook() docstring: The docstring now clearly explains the application's functionality.
+Comments refined: The comments are now more concise and focus on explaining the why rather than the what (which should be clear from the code itself).
+
