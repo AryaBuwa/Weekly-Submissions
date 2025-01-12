@@ -1,0 +1,18 @@
+To-Do List Application
+This Python project implements a simple command-line To-Do List application that allows users to:
+
+Add tasks: Input task descriptions which are saved in a list.
+Remove tasks: Remove tasks by selecting their index.
+Mark tasks as completed: Update task status to "Completed".
+View tasks: Display the list of tasks with their current status.
+Exit: Exit the program.
+The application uses a TodoList class for task management and handles invalid inputs with error messages.
+
+Key Improvements:
+Tasks are managed within the TodoList class.
+Added input validation and error handling.
+Clearer user prompts for a better experience.
+Credits:
+ChatGPT for coding suggestions and problem-solving.
+YouTube and Gemini for insights on function usage.
+GeeksforGeeks for tutorials on Python functions.
