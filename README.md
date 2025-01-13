@@ -21,3 +21,11 @@
   -💬 Leave comments or suggestions. I love feedback! 😏
 
 *Stay tuned for more weekly updates as I code my way through Python!*
+
+## Attribution
+
+This project is based on tutorials and code from:
+1. [FreeCodeCamp](https://www.freecodecamp.org/)
+2. [ChatGPT](https://openai.com/chatgpt)
+
+This project is for personal learning and educational purposes only.
