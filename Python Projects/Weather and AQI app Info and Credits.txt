@@ -1,0 +1,18 @@
+This Python code gathers real-time weather and air quality index (AQI) information for a specified city through the OpenWeather API.
+It delivers key weather metrics, including temperature, humidity, and atmospheric pressure.
+The code also retrieves AQI data to assess the air quality condition.
+The output of code is enhanced with vibrant colors using the colorama library to improve readability.
+It incorporates error handling for incorrect city names and manages any missing data in the AQI response.
+
+Modifications Made :
+
+Added AQI data to assess the air quality condition.
+
+Credits : 
+## Attribution
+
+This project is based on tutorials and code from:
+1. [FreeCodeCamp](https://www.freecodecamp.org/)
+2. [ChatGPT](https://openai.com/chatgpt)
+
+This project is for personal learning and educational purposes only.
