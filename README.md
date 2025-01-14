@@ -13,19 +13,21 @@
 - How to Explore:
     - Browse: Check out the projects from each week.
     - Run: Clone the repo and run the Python scripts.
-    - Learn: Feel free to leave feedback or suggest improvements. Let’s grow together! 😘
+    - You can learn: Feel free to leave feedback or suggest any improvements you might have. Let’s grow together! 😘
 
 - Feel free to:
   -⭐️ Star the repo if you like my work!
-  -📝 Fork it if you want to collaborate or try out the code.
+  -📝 Fork it to collaborate or try out the code.
   -💬 Leave comments or suggestions. I love feedback! 😏
 
 *Stay tuned for more weekly updates as I code my way through Python!*
 
 ## Attribution
 
-This project is based on tutorials and code from:
+These projects are based on tutorials and code from:
 1. [FreeCodeCamp](https://www.freecodecamp.org/)
 2. [ChatGPT](https://openai.com/chatgpt)
+3. [Google](https://www.google.com/)
+4. [Kaggle](https://www.kaggle.com/)
 
 This project is for personal learning and educational purposes only.
