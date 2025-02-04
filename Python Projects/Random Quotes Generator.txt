@@ -1,0 +1,18 @@
+Random Quote Generator
+This Random Quote Generator is a Python script that generates random motivational quotes designed to inspire and uplift users. Each time the script is run, it selects and displays a new quote from a predefined list of motivational quotes. The user can choose to generate another quote or exit the program.
+
+Features:
+- Generates a random motivational quote from a predefined list.
+- Offers the option to generate another quote or exit the program.
+- Simple interface for easy user interaction.
+How It Works:
+1. The program starts by displaying a welcoming message.
+2. A random quote is selected and displayed on the screen.
+3. The user is prompted to either generate another quote or exit the program.
+Disclaimer:
+This project is for educational purposes only. The quotes used in this script were sourced from the GitHub Gist and are not owned by the author of the program.
+
+Acknowledgments:
+GitHub Gist - For the source of the quotes. (https://gist.github.com/robatron/a66acc0eed3835119817)
+ChatGPT - Assisted in refining the script.
+GitHub - Platform for version control and collaboration.
