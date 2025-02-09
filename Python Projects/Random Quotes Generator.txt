@@ -10,7 +10,7 @@ How It Works:
 2. A random quote is selected and displayed on the screen.
 3. The user is prompted to either generate another quote or exit the program.
 Disclaimer:
-This project is for educational purposes only. The quotes used in this script were sourced from the GitHub Gist repository and are not owned by the author of the program.
+This project is for educational purposes only. The quotes which are used in this script were sourced from the GitHub Gist repository and are not owned by the author of the program.
 
 Acknowledgments:
 GitHub Gist - For the source of the quotes. (https://gist.github.com/robatron/a66acc0eed3835119817)
