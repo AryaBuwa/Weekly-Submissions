@@ -10,6 +10,9 @@
     - 🧩 Coding Challenges: My solutions to coding problems from platforms like LeetCode, HackerRank, and more.
     - 📅 Weekly Updates: Every week, I’ll add new submissions to showcase my progress.
 
+- *Current Progress :*
+    - Learning Machine Learning and also performing and preactising EDA on data.
+ 
 - How to Explore:
     - Browse: Check out the projects from each week.
     - Run: Clone the repo and run the Python scripts.
