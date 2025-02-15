@@ -43,7 +43,7 @@ jupyter notebook EDA_PY.ipynb
 
 ## Credits
 - This project is performed using **Jupyter Notebook**.
-- The dataset was sourced from the **internet**.
+- The dataset was sourced from the **internet(kaggle)**.
 
 ## License
 This project is for educational purposes and does not include a license.
