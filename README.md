@@ -11,7 +11,7 @@
     - 📅 Weekly Updates: Every week, I’ll add new submissions to showcase my progress.
 
 - **Current Progress :** (updated Daily)
-    - Learning Machine Learning and also performing and preactising EDA on data.
+    - Learning Machine Learning Algorithms and also performing and preactising EDA on data.
  
 - How to Explore:
     - Browse: Check out the projects from each week.
