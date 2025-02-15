@@ -31,4 +31,4 @@ These projects are based on tutorials and code from:
 4. [Kaggle](https://www.kaggle.com/)
 5. [Github](https://www.github.com/)
 
-This project is for personal learning and educational purposes only.
+This projects are only for personal learning and educational purposes.
