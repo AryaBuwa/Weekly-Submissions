@@ -12,6 +12,8 @@
 
 - **Current Progress :** (updated Daily)
     - Learning Machine Learning Algorithms and also performing and preactising EDA on data.
+    - Also Learning Machine Learning Algorithms.
+    - Currently practicing on Logistic Regression Algorithms.
  
 - How to Explore:
     - Browse: Check out the projects from each week.
