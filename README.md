@@ -13,7 +13,7 @@
 - **Current Progress :** (updated Daily)
     - Learning Machine Learning Algorithms and also performing and preactising EDA on data.
     - Also Learning Machine Learning Algorithms.
-    - Currently practicing on Logistic Regression Algorithms.
+    - Currently practicing on Logistic Regression Algorithms and learning to Solve Problem Statements.
  
 - How to Explore:
     - Browse: Check out the projects from each week.
@@ -34,5 +34,6 @@ These projects are based on tutorials and code from:
 2. [ChatGPT](https://openai.com/chatgpt)
 3. [Google](https://www.google.com/)
 4. [Kaggle](https://www.kaggle.com/)
+5. [Github](https://www.github.com/)
 
 This projects are only for personal learning and educational purposes.
