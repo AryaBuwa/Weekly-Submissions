@@ -34,6 +34,5 @@ These projects are based on tutorials and code from:
 2. [ChatGPT](https://openai.com/chatgpt)
 3. [Google](https://www.google.com/)
 4. [Kaggle](https://www.kaggle.com/)
-5. [Github](https://www.github.com/)
 
 This projects are only for personal learning and educational purposes.
