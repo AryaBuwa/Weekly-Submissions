@@ -14,7 +14,6 @@
     - Learning Machine Learning Algorithms and also performing and preactising EDA on data.
     - Also Learning Machine Learning Algorithms.
     - Currently practicing on Logistic Regression Algorithms and learning to Solve Problem Statements.
-    - Learning different types of regression and applying it to different types of problems for better understanding.
     - Also learning the working of LLM's and how to integrate them into the project using huggingface.
  
 - How to Explore:
