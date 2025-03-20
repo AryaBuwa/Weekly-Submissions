@@ -10,6 +10,13 @@
     - 🧩 Coding Challenges: My solutions to coding problems from platforms like LeetCode, HackerRank, and more.
     - 📅 Weekly Updates: Every week, I’ll add new submissions to showcase my progress.
 
+- **Current Progress :** (updated Daily)
+    - Learning Machine Learning Algorithms and also performing and preactising EDA on data.
+    - Also Learning Machine Learning Algorithms.
+    - Currently practicing on Logistic Regression Algorithms and learning to Solve Problem Statements.
+    - Also learning the working of LLM's and how to integrate them into the project using huggingface.
+    - Joined Oracle's Gen AI course.
+ 
 - How to Explore:
     - Browse: Check out the projects from each week.
     - Run: Clone the repo and run the Python scripts.
@@ -30,4 +37,4 @@ These projects are based on tutorials and code from:
 3. [Google](https://www.google.com/)
 4. [Kaggle](https://www.kaggle.com/)
 
-This project is for personal learning and educational purposes only.
+This projects are only for personal learning and educational purposes.
