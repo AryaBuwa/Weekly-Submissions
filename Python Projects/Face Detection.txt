@@ -1,6 +1,6 @@
 Face Detector with GUI
 
-Libraries Used:
+Libraries Used :
 
 cv2: Webcam access & face detection.
 tkinter: GUI creation.

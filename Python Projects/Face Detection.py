@@ -16,7 +16,7 @@ def show_frame():
         print(f"Error: {e}")
 
 # GUI Setup
-root = tk.Tk(); root.title("Face Detector"); root.configure(bg="gray"); root.geometry("900x700")
+root = tk.Tk(); root.title("Face Detector "); root.configure(bg="gray"); root.geometry("900x700")
 lbl = tk.Label(root, bg="gray"); lbl.pack(expand=True)
 
 # Buttons
