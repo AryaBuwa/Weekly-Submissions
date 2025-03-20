@@ -6,15 +6,14 @@
 - Come check it out and watch me grow! 💻✨
 
 - What’s Inside:
-    - 🐍 Python Projects: A collection of fun and practical Python apps I’ve created.
+    - 🐍 Python Projects: I've created a collection of fun and practical Python apps.
     - 🧩 Coding Challenges: My solutions to coding problems from platforms like LeetCode, HackerRank, and more.
-    - 📅 Weekly Updates: Every week, I’ll add new submissions to showcase my progress.
+    - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
-- **Current Progress :** (updated Daily)
-    - Learning Machine Learning Algorithms and also performing and preactising EDA on data.
-    - Also Learning Machine Learning Algorithms.
+- **Current Progress :** (Updated Daily)
+    - Learning Machine Learning Algorithms and also performing and practising EDA on data.
     - Currently learning Computer Vision and how it works using cv2 and ML.
-    - Also learning the working of LLM's and how to integrate them into the project using huggingface.
+    - Also learning the working of LLMs and how to integrate them into the project using hugging face.
     - Joined Oracle's Gen AI course.
  
 - How to Explore:
