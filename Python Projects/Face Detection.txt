@@ -1,0 +1,31 @@
+Face Detector with GUI
+
+Libraries Used:
+
+cv2: Webcam access & face detection.
+tkinter: GUI creation.
+Pillow: Frame conversion for Tkinter.
+Thread: For smooth GUI performance.
+Face Detection Logic:
+
+Captures webcam frames.
+Grayscale conversion for detection.
+Green box → 1 face, Red box → Multiple faces.
+Labels: Hello Beautiful! (1 face) / N Faces Spotted! (multiple).
+GUI Components:
+
+Window: 900x700, gray background.
+Buttons: Minimize, Maximize, Close.
+Multithreading:
+
+Runs face detection in a separate thread.
+Keeps GUI responsive.
+Error Handling:
+
+Catches and displays webcam errors.
+Optimized Performance:
+
+Frame refresh every 10ms.
+Clean shutdown with resource release.
+
+Developed by Arya Buwa with guidance from ChatGPT by OpenAI.
