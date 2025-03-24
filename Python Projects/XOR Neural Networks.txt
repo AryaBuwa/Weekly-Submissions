@@ -1,0 +1,63 @@
+XOR Neural Network Using Keras
+
+Overview
+This project demonstrates a basic neural network implementation using TensorFlow Keras to solve the classic XOR problem.
+It showcases a simple feedforward neural network trained to classify XOR patterns with binary cross-entropy loss and Adam optimizer.
+
+Technologies Used
+- Python
+- TensorFlow/Keras
+- NumPy
+- Matplotlib
+- Google Colab (for running and testing)
+
+Model Architecture
+- Input Layer: 2 neurons
+- Hidden Layer 1: 8 neurons with ReLU activation
+- Hidden Layer 2: 4 neurons with ReLU activation
+- Output Layer: 1 neuron with Sigmoid activation
+
+Performance
+- Accuracy: 95-100%
+- The model consistently achieves high accuracy on the XOR problem, correctly classifying all patterns.
+
+Installation & Usage
+1. Clone the Repository
+    git clone <repo_url>
+    cd <repo_folder>
+
+2. Install Dependencies
+    pip install tensorflow numpy matplotlib
+
+3. Run the Model
+    python xor_nn.py
+
+Visualization
+The training loss over 1000 epochs is visualized using Matplotlib:
+
+- X-axis: Epochs
+- Y-axis: Loss
+- The loss decreases smoothly, indicating successful convergence.
+
+Code Snippet
+# Building the Model
+model = Sequential()
+model.add(Dense(8, input_dim=2, activation='relu', kernel_initializer='he_normal'))  # Hidden layer 1
+model.add(Dense(4, activation='relu', kernel_initializer='he_normal'))               # Hidden layer 2
+model.add(Dense(1, activation='sigmoid'))                                           # Output layer
+
+# Compile and Train
+model.compile(optimizer=Adam(learning_rate=0.01), loss=BinaryCrossentropy(), metrics=['accuracy'])
+history = model.fit(X, y, epochs=1000, verbose=0)
+
+Contributing
+Feel free to fork this repository, submit issues, or make pull requests to contribute!
+
+Author
+Arya Buwa
+- GitHub: Arya Buwa (https://github.com/your-github-username)
+- Email: aryabuwa@gmail.com
+
+Credits
+- Developed with assistance from ChatGPT
+- Executed and tested using Google Colab and Microsoft VS Code
