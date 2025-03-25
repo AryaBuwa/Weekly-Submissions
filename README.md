@@ -11,10 +11,10 @@
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
 - **Current Progress :** (Updated Daily)
-    - Learning Machine Learning Algorithms and also performing and practising EDA on data.
+    - Learning machine learning algorithms and performing and practising EDA on data.
     - Currently learning Computer Vision and how it works using cv2 and ML.
     - Also learning the working of LLMs and how to integrate them into the project using hugging face.
-    - Joined Oracle's Gen AI course also with google's gen AI course.
+    - I joined Oracle's Gen AI course and Google's Gen AI course.
  
 - How to Explore:
     - Browse: Check out the projects from each week.
