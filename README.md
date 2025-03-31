@@ -14,7 +14,6 @@
     - Learning machine learning algorithms and performing and practising EDA on data.
     - Currently learning Computer Vision and how it works using cv2 and ML.
     - Also learning the working of LLMs and how to integrate them into the project using hugging face.
-
     - I joined Oracle's Gen AI course and Google's Gen AI course.
     
 - How to Explore:
