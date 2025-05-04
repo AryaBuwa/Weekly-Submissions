@@ -1,0 +1,71 @@
+# Career Recommender
+
+## Overview
+
+This project helps in recommending the most suitable career based on the skills inputted by the user. It uses a machine learning model to compare the skills entered with those required for various careers and outputs the best matching career.
+
+## Technologies Used
+
+- Python
+- scikit-learn (for machine learning and cosine similarity)
+- pandas (for managing career data)
+- numpy (for array handling)
+
+## How to Run
+
+1. Clone this repository to your local machine.
+2. Install the required libraries by running:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run the script:
+
+    ```bash
+    python career_recommender.py
+    ```
+
+4. The script will prompt you to enter a list of skills, and it will return the career that matches those skills most closely.
+
+## Career Dataset
+
+The project includes a dataset of various careers and the necessary skills for each. These careers range from technical roles such as "Data Scientist" and "AI Engineer" to non-technical roles like "Marketing Manager" and "Product Manager."
+
+
+## Example
+
+
+### Input: AI, Machine Learning, neural networks, deep learning
+
+### Output:
+## Recommended Career: AI Researcher
+## Match Score: 0.80
+
+
+
+## Requirements
+
+Make sure to install the following Python packages:
+
+- `scikit-learn`
+- `pandas`
+- `numpy`
+
+You can install them using `pip`:
+
+```bash
+pip install scikit-learn pandas numpy
+
+
+
+
+### Explanation:
+1. **Overview:** A brief description of what the project does.
+2. **Technologies Used:** Lists the tools/libraries used in the project.
+3. **How to Run:** Explains the steps to set up the project and run it locally.
+4. **Career Dataset:** A short mention of the dataset used in the project.
+5. **Example:** Shows a basic example of how to use the project.
+6. **Requirements:** Lists the dependencies needed to run the project.
+
+This `README.md` is clean, simple, and free of Flask or any backend/frontend specifics, as per your request!
