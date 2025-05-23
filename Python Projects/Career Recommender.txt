@@ -33,6 +33,7 @@ This project helps in recommending the most suitable career based on the skills 
 The project includes a dataset of various careers and the necessary skills for each. These careers range from technical roles such as "Data Scientist" and "AI Engineer" to non-technical roles like "Marketing Manager" and "Product Manager."
 
 
+
 ## Example
 
 

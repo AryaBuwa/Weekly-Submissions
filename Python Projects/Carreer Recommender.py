@@ -108,7 +108,7 @@ def recommend_career(user_input):
 
     return recommended_career, match_score
 
-# User Input
+# Getting User Input
 user_skills = input("Enter your skills (comma separated): ")
 
 # Getting recommendation
