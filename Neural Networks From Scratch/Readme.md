@@ -41,8 +41,8 @@ The project uses the MNIST Digit Recognizer dataset, consisting of grayscale ima
 1. Clone the repository:
 
    ```bash
-   git clone <your-repository-url>
-   cd <your-repository-name>
+   git clone git clone https://github.com/AryaBuwa/Weekly-Submissions.git
+   cd Weekly-Submissions/Neural\ Networks\ From\ Scratch
 
 2. Ensure Python is installed.
 
