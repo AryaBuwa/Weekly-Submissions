@@ -15,7 +15,6 @@
     - Currently learning Computer Vision and how it works using cv2 and ML.
     - Also learning the working of LLMs and how to integrate them into the project using hugging face.
     - I recently joined Oracle's Gen AI course and Google's Gen AI course.
-    - learning projects based on LLMs
     
 - How to Explore:
     - Browse: Check out the projects from each week.
