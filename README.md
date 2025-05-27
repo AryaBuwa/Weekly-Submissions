@@ -1,24 +1,24 @@
-## **Weekly Submissions 🚀**
+# **Weekly Submissions 🚀**
 
 - Welcome to my Weekly Submissions repo! 
 - This is where I’ll be tracking my journey as I learn Python, week by week. 
 - Here, you’ll find simple projects, coding exercises, and challenges that I’ve worked on. 
 - Come check it out and watch me grow! 💻✨
 
-- What’s Inside:
+- ### What’s Inside:
     - 🐍 Python Projects: I've created a collection of fun and practical Python apps.
     - 🧩 Coding Challenges: My solutions to coding problems from platforms like LeetCode, HackerRank, and more.
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
 ## **Current Progress :** (Updated Daily)
-   1. Currently learning and working on a project inspired by a YouTube video.
-    
-- How to Explore:
+    1. Currently learning and working on a project inspired by a YouTube video on Neural Networks.
+
+- ### How to Explore:
     - Browse: Check out the projects from each week.
     - Run: Clone the repo and run the Python scripts.
     - You can learn: Feel free to leave feedback or suggest any improvements you might have. Let’s grow together! 😘
 
-- Feel free to:
+- ### Feel free to:
   -⭐️ Star the repo if you like my work!
   -📝 Fork it to collaborate or try out the code.
   -💬 Leave comments or suggestions. I love feedback! 😏
