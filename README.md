@@ -10,8 +10,8 @@
     - 🧩 Coding Challenges: My solutions to coding problems from platforms like LeetCode, HackerRank, and more.
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
-- **Current Progress :** (Updated Daily)
-    - Currently learning and working on a project inspired by a YouTube video.
+## **Current Progress :** (Updated Daily)
+    1. Currently learning and working on a project inspired by a YouTube video.
     
 - How to Explore:
     - Browse: Check out the projects from each week.
