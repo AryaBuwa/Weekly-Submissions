@@ -1,4 +1,4 @@
-**Weekly Submissions 🚀**
+## **Weekly Submissions 🚀**
 
 - Welcome to my Weekly Submissions repo! 
 - This is where I’ll be tracking my journey as I learn Python, week by week. 
@@ -11,7 +11,7 @@
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
 ## **Current Progress :** (Updated Daily)
-    1. Currently learning and working on a project inspired by a YouTube video.
+   1. Currently learning and working on a project inspired by a YouTube video.
     
 - How to Explore:
     - Browse: Check out the projects from each week.
