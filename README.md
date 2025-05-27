@@ -11,10 +11,6 @@
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
 - **Current Progress :** (Updated Daily)
-    - Learning machine learning algorithms and performing and practising EDA on data.
-    - Currently learning Computer Vision and how it works using cv2 and ML.
-    - Also learning the working of LLMs and how to integrate them into the project using hugging face.
-    - I recently joined Oracle's Gen AI course and Google's Gen AI course.
     - Currently learning and working on a project inspired by a YouTube video.
     
 - How to Explore:
@@ -36,5 +32,6 @@ These projects are based on tutorials and code from:
 2. [ChatGPT](https://openai.com/chatgpt)
 3. [Google](https://www.google.com/)
 4. [Kaggle](https://www.kaggle.com/)
+5. [YouTube](https://www.youtube.com/)
 
-This projects are only for personal learning and educational purposes.
+These projects are only for personal learning and educational purposes.
