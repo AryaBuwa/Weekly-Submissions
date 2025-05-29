@@ -11,7 +11,7 @@
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
 ## **Current Progress :** (Updated Daily)
-    1. Currently learning and working on a project inspired by a YouTube video on Neural Networks.
+    1. Currently learning and working on a project inspired by a YouTube video on Neural Networks
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
