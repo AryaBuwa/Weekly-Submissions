@@ -12,7 +12,7 @@
 
 ## **Current Progress :** (Updated Daily)
     1. Currently learning and working on a project inspired by a YouTube video on Neural Networks
-      - built the base project and learning and working on CNN.
+      - Learning how to use LLMs in a project.
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
