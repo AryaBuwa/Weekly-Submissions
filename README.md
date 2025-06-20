@@ -13,6 +13,7 @@
 ## **Current Progress :** (Updated Daily)
     1. Currently learning and working on a project inspired by a YouTube video on Neural Networks
       - Learning how to use LLMs in a project.
+      - And trying to implement a movie recommender system.
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
