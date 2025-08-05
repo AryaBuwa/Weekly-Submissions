@@ -12,7 +12,7 @@
 
 ## **Current Progress :** (Updated Daily)
     1. Currently learning and working on a project inspired by a YouTube video on Neural Networks
-      - Building a medium-sized project.
+      - Building a medium-sized project
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
