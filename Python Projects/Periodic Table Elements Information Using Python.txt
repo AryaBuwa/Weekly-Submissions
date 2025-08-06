@@ -1,0 +1,67 @@
+# 🔬 Periodic Table Element Info
+
+A lightweight Python CLI tool that lets you enter any chemical element symbol (like `H`, `Na`, `Fe`, etc.) and fetch detailed info straight from the periodic table using the `periodictable` library.
+
+Whether you're brushing up on chemistry or just feeling curious, this app has your back — simple, fast, and a little bit nerdy (in the best way).
+
+---
+
+## ✨ Features
+
+- Displays element name, symbol, atomic number, and atomic mass
+- Case-insensitive input (`H`, `he`, `NA` — all valid)
+- Continuous loop until you type `'exit'`
+- Clean error handling for invalid inputs
+- No unnecessary complexity — just type, get data, repeat
+
+---
+
+## 📦 Requirements
+
+- Python 3.x  
+- [`periodictable`](https://pypi.org/project/periodictable/) library
+
+Install the dependency with:
+
+```bash
+pip install periodictable
+```
+
+---
+
+## 🚀 How to Run
+
+```bash
+python element_info.py
+```
+
+Then input a chemical symbol:
+
+```text
+Enter the Element: H
+```
+
+To exit:
+
+```text
+Enter the Element: exit
+```
+
+---
+
+## 🧪 Sample Output
+
+```text
+Enter the Element: Na
+Element: sodium
+Symbol: Na
+Atomic Number: 11
+Atomic Mass: 22.98976928 u
+```
+
+---
+
+## 🙌 Credits
+
+Built with curiosity and a splash of caffeine by **Arya Buwa**  
+Documentation by [ChatGPT](https://chat.openai.com)
