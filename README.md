@@ -1,27 +1,25 @@
-**Weekly Submissions 🚀**
+# **Weekly Submissions 🚀**
 
 - Welcome to my Weekly Submissions repo! 
 - This is where I’ll be tracking my journey as I learn Python, week by week. 
 - Here, you’ll find simple projects, coding exercises, and challenges that I’ve worked on. 
 - Come check it out and watch me grow! 💻✨
 
-- What’s Inside:
+- ### What’s Inside:
     - 🐍 Python Projects: I've created a collection of fun and practical Python apps.
     - 🧩 Coding Challenges: My solutions to coding problems from platforms like LeetCode, HackerRank, and more.
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
-- **Current Progress :** (Updated Daily)
-    - Learning machine learning algorithms and performing and practising EDA on data.
-    - Currently learning Computer Vision and how it works using cv2 and ML.
-    - Also learning the working of LLMs and how to integrate them into the project using hugging face.
-    - I recently joined Oracle's Gen AI course and Google's Gen AI course.
-    
-- How to Explore:
+## **Current Progress :** (Updated Daily)
+    1. Currently learning and working on a project inspired by a YouTube video on Neural Networks
+      - Building a medium-sized project based on PyTorch.
+
+- ### How to Explore:
     - Browse: Check out the projects from each week.
     - Run: Clone the repo and run the Python scripts.
     - You can learn: Feel free to leave feedback or suggest any improvements you might have. Let’s grow together! 😘
 
-- Feel free to:
+- ### Feel free to:
   -⭐️ Star the repo if you like my work!
   -📝 Fork it to collaborate or try out the code.
   -💬 Leave comments or suggestions. I love feedback! 😏
@@ -35,5 +33,6 @@ These projects are based on tutorials and code from:
 2. [ChatGPT](https://openai.com/chatgpt)
 3. [Google](https://www.google.com/)
 4. [Kaggle](https://www.kaggle.com/)
+5. [YouTube](https://www.youtube.com/)
 
-This projects are only for personal learning and educational purposes.
+These projects are only for personal learning and educational purposes.

@@ -55,7 +55,7 @@ Feel free to fork this repository, submit issues, or make pull requests to contr
 
 Author
 Arya Buwa
-- GitHub: Arya Buwa (https://github.com/your-github-username)
+- GitHub: Arya Buwa (https://github.com/AryaBuwa)
 - Email: aryabuwa@gmail.com
 
 Credits
