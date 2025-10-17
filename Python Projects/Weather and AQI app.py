@@ -3,7 +3,7 @@ from pprint import pprint
 from colorama import Fore, Style
 
 # API Key
-API_key = '993b51eaa31a0036584aa662ee6050bb'
+API_key = #your api key
 
 # Getting User Input
 City = input("Enter a city: ")
