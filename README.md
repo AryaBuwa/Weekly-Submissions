@@ -12,7 +12,7 @@
 
 ## **Current Progress :** (Updated Daily)
     1. Currently learning Neural Networks.
-      - Building a PDF to EXCEL File Converter using PyQt/PySide with a GUI
+      - Building a PDF to EXCEL File Converter using PyQt/PySide with a GUI.
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
