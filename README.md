@@ -12,8 +12,6 @@
 
 ## **Current Progress :** (Updated Weekly)
     1. Revisiting the fundamentals of Python and SQL.
-    2. Completing a Generative AI course by DeepLearning AI. 
-    3. Learning how to use agentic AI workflows with n8n and Make.com.
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
