@@ -10,7 +10,7 @@
     - 🧩 Coding Challenges: My solutions to coding problems from platforms like LeetCode, HackerRank, and more.
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
-## **Current Progress :** (Updated Daily)
+## **Current Progress :** (Updated Weekly)
     1. Currently learning Neural Networks.
       - Building a PDF to EXCEL File Converter using PyQt/PySide with a GUI.
 
