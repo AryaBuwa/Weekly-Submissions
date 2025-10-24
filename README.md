@@ -11,8 +11,9 @@
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
 ## **Current Progress :** (Updated Weekly)
-    1. Currently learning Neural Networks.
-      - Building a PDF to EXCEL File Converter using PyQt/PySide with a GUI.
+    1. Revisiting the fundamentals of Python and SQL.
+    2. Completing a Generative AI course by DeepLearning AI. 
+    3. Learning how to use agentic AI workflows with n8n and Make.com.
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
