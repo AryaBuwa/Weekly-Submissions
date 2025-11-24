@@ -11,7 +11,7 @@
     - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
 
 ## **Current Progress :** (Updated Weekly)
-    1. Revisiting the fundamentals of Python and SQL.
+    1. Revisiting the fundamentals of Python and SQL with Power BI.
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
