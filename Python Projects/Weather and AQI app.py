@@ -3,19 +3,19 @@ from pprint import pprint
 from colorama import Fore, Style
 
 # API Key
-API_key = #your api key
+API_key = #your api key.
 
 # Getting User Input
 City = input("Enter a city: ")
 
-# Construction the URL for the API
+# Constructing the URL for the API
 base_weather_url = "http://api.openweathermap.org/data/2.5/weather?appid="+API_key+"&q="+City
 base_aqi_url = "http://api.openweathermap.org/data/2.5/air_pollution?appid="+API_key+"&lat={lat}&lon={lon}"
 
 # Now Requesting the URL for weather
 Weather = requests.get(base_weather_url).json()
 
-# Check if the enterd city is found or not
+# Check if the entered city is found or not
 if Weather["cod"] == 200:
     # Getting the Weather Data along with the City
     print(Fore.LIGHTWHITE_EX + "Weather Details of " + City.capitalize() + " City are as following : " + Style.RESET_ALL)
@@ -51,7 +51,7 @@ if Weather["cod"] == 200:
         print(aqi_color + "Air Quality Index (AQI) :" + aqi_status + Style.RESET_ALL)
     else :
         
-        # If user inputs wrong city name, this will return an error
+        # If the user inputs the wrong city name, this will return an error
         print(Fore.RED + "Error fetching AQI data: Unable to retrieve AQI information." + Style.RESET_ALL)
 else : 
     # If user inputs wrong city name, this will return an error
