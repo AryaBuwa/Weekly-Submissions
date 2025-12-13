@@ -13,6 +13,7 @@
 ## **Current Progress :** (Updated Weekly)
     1. Revisiting the fundamentals of Python and SQL.
     2. Learning a new language.
+    3. Participating in Advent Of Code 2025.
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
