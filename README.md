@@ -14,6 +14,7 @@
     1. Revisiting the fundamentals of Python and SQL.
     2. Learning a new language.
     3. Participated and Completed the Advent Of Code 2025.
+    4. Building an application.
 
 - ### How to Explore:
     - Browse: Check out the projects from each week.
