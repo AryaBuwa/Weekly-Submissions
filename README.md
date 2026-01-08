@@ -8,7 +8,7 @@ Welcome to my digital workshop! This repository tracks my evolution from Python 
 ### My First Streamlit App
 I’ve officially moved from local scripts to the cloud! I just deployed my first interactive web application.
 
-👉 **[Launch Live App](YOUR_STREAMLIT_URL_HERE)** 🚀
+👉 **[🚀 Click here to view my Live App]((https://cafemenu.streamlit.app/))** 🚀
 
 ---
 
