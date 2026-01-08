@@ -1,0 +1,8 @@
+# Ignore PyCharm settings
+.idea/
+
+# Ignore local VS Code settings
+.vscode/
+
+# Ignore Streamlit's auto-generated container
+.devcontainer/
