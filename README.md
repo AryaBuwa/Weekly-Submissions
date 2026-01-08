@@ -1,40 +1,51 @@
-# **Weekly Submissions 🚀**
+# 🚀 Weekly Submissions: My Coding Journey
 
-- Welcome to my Weekly Submissions repo! 
-- This is where I’ll be tracking my journey as I learn Python, week by week. 
-- Here, you’ll find simple projects, coding exercises, and challenges that I’ve worked on. 
-- Come check it out and watch me grow! 💻✨
+Welcome to my digital workshop! This repository tracks my evolution from Python basics to building live applications. I’m coding, breaking things, and growing—one week at a time. 🐍✨
 
-- ### What’s Inside:
-    - 🐍 Python Projects: I've created a collection of fun and practical Python apps.
-    - 🧩 Coding Challenges: My solutions to coding problems from platforms like LeetCode, HackerRank, and more.
-    - 📅 Weekly Updates: I’ll add new submissions to showcase my progress every week.
+---
 
-## **Current Progress :** (Updated Weekly)
-    1. Revisiting the fundamentals of Python and SQL.
-    2. Learning a new language.
-    3. Participated and Completed the Advent Of Code 2025.
-    4. Building an application.
+## 🌟 Project Spotlight
+### My First Streamlit App
+I’ve officially moved from local scripts to the cloud! I just deployed my first interactive web application.
 
-- ### How to Explore:
-    - Browse: Check out the projects from each week.
-    - Run: Clone the repo and run the Python scripts.
-    - You can learn: Feel free to leave feedback or suggest any improvements you might have. Let’s grow together! 😘
+👉 **[Launch Live App](YOUR_STREAMLIT_URL_HERE)** 🚀
 
-- ### Feel free to:
-  -⭐️ Star the repo if you like my work!
-  -📝 Fork it to collaborate or try out the code.
-  -💬 Leave comments or suggestions. I love feedback! 😏
+---
 
-*Stay tuned for more weekly updates as I code my way through Python!*
+## 📈 Current Focus (2026)
+- [x] **Mastering Fundamentals:** Deep dive into Python & SQL.
+- [x] **Event Milestone:** Completed **Advent of Code 2025** 🎄
+- [ ] **App Development:** Building and scaling Streamlit applications.
+- [ ] **New Horizons:** Exploring a second programming language.
 
-## Attribution
+---
 
-These projects are based on tutorials and code from:
-1. [FreeCodeCamp](https://www.freecodecamp.org/)
-2. [ChatGPT](https://openai.com/chatgpt)
-3. [Google](https://www.google.com/)
-4. [Kaggle](https://www.kaggle.com/)
-5. [YouTube](https://www.youtube.com/)
+## 📂 What’s Inside?
+| Section | Description |
+| :--- | :--- |
+| **🐍 Python Projects** | Real-world apps and practical automation scripts. |
+| **🧩 Challenges** | Solutions for LeetCode, HackerRank, and logic puzzles. |
+| **📅 Weekly Logs** | A timeline of my progress and new skills learned. |
 
-These projects are only for personal learning and educational purposes.
+---
+
+## 🛠️ How to Explore
+1. **Browse:** Navigate through the weekly folders to see specific projects.
+2. **Run:** Clone the repo and run the scripts locally.
+3. **Connect:** If you see a way to optimize my code, I’d love to hear it! Let's grow together. 🤝
+
+---
+
+## 🤝 Let's Connect!
+- ⭐ **Star** this repo if you find it helpful!
+- 🍴 **Fork** it to experiment with the code yourself.
+- 💬 **Feedback** is always welcome—drop a comment or suggestion!
+
+---
+
+## 📚 Attribution & Learning Resources
+I believe in standing on the shoulders of giants. My learning is powered by:
+* [FreeCodeCamp](https://www.freecodecamp.org/) | [Kaggle](https://www.kaggle.com/) | [YouTube](https://www.youtube.com/)
+* [Gemini](https://gemini.google.com/) | [ChatGPT](https://openai.com/chatgpt) 
+
+> *Note: These projects are for personal learning and educational purposes.*
