@@ -10,7 +10,7 @@ I’ve officially moved from local scripts to the cloud! I just deployed my firs
 
 
 
-👉 **[🚀 Click here to view my Live App]((https://cafemenu.streamlit.app/))** 🚀
+👉 Live App Link: [https://cafemenu.streamlit.app](https://cafemenu.streamlit.app)🚀
 
 
 
