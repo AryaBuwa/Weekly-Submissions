@@ -1,34 +1,39 @@
-# Personal Expense Tracker
-
-# importing random and streamlit 
 import random
 import streamlit as st
 
-# Expense
-Date = st.text_input("Enter the Date : ")
-Description = st.text_input("Enter the Description : ")
-Category = st.text_input("Enter the Category : ")
-Amount = float(st.text_input("Enter the Amount : "))
+# 1. Page Configuration & Header
+st.set_page_config(page_title="WealthWise Tracker", page_icon="💰")
+st.title("💰 WealthWise: Personal Expense Tracker")
+st.markdown("---")
 
-# Creating a Dictionary for storing all the expenses done by user
+# 2. Input Section in Sidebar for a cleaner look
+with st.sidebar:
+    st.header("➕ Add Expense")
+    Date = st.text_input("Enter the Date (YYYY/MM/DD): ")
+    Description = st.text_input("Enter the Description: ")
+    Category = st.text_input("Enter the Category: ")
+    # Using a number input to avoid errors with non-numeric text
+    Amount = st.number_input("Enter the Amount: ", min_value=0.0)
+
+# Creating the list for storing expenses
 expenses = [
     {"date": Date, "description": Description, "category": Category, "amount": Amount}
 ]
 
-# now to show all these inputs, using print function to display them all.
-st.button(Date)
-st.button(Description)
-st.button(Category)
-st.button(Amount)
-
-# Creating a function that prints the summarization
+# 3. Main Dashboard: Summarization and Metrics
+col1, col2 = st.columns(2)
 def summarize(Date, Category, Amount):
     return "Summary: On {}, you spent ${:.2f} on {}.".format(Date, Amount, Category)
 
-Summarization = summarize(Date, Category, Amount)
-st.write(Summarization)
+with col1:
+    st.metric(label="Last Spent", value=f"${Amount:.2f}")
+with col2:
+    st.metric(label="Category", value=Category)
 
-# now to filter the expenses by date and category we use
+st.info(summarize(Date, Category, Amount))
+st.divider()
+
+# 4. Filtering Logic
 def filter(expenses, date=None, category=None):
     filtered = []
     for expense in expenses:
@@ -36,49 +41,65 @@ def filter(expenses, date=None, category=None):
             filtered.append(expense)
     return filtered
 
-# Now asking user for filtered options
-st.write('Filter Your Expenses : ')
-date = st.text_input("To use filter, Please Enter The Date in (YYYY/MM/DD) format or Press Enter Key to Skip : ").strip()
-category = st.text_input("To use filter, Enter the category to filter or press Enter Key to skip : ").strip()
+st.subheader("🔍 Filter Your Expenses")
+f_col1, f_col2 = st.columns(2)
+with f_col1:
+    date_f = st.text_input("Filter by Date: ").strip()
+with f_col2:
+    cat_f = st.text_input("Filter by Category: ").strip()
 
-# Filtering the user expenses according to their input
-filtered_results = filter(expenses, date=date if date else None, category=category if category else None)
+filtered_results = filter(expenses, date=date_f if date_f else None, category=cat_f if cat_f else None)
 
-# Now Printing the results
-st.write ("Filtered Expenses : ")
 if filtered_results:
-    for expense in filtered_results:
-        st.write("Date : " + expense["date"] + ", Description : " + expense["description"] + ", Category : " + expense["category"] + ", Amount : $" + '{:.2f}'.format(expense["amount"]))
+    # Using st.dataframe makes it look like a professional table
+    st.dataframe(filtered_results, use_container_width=True)
 else :
     st.write("No Expenses found! ")
 
+# 5. Categorized Financial Tips at the very tail bottom
+st.divider()
+st.subheader("💡 Financial Wisdom")
 
-# Adding a list and a function for showing 3 financial tips to the user.
+tips_data = {
+    "Savings 🏦": [
+        "Save at least 20% of your income every month.",
+        "Set up automatic transfers to your savings account.",
+        "Create an emergency fund for 3 months of living expenses.",
+        "Review subscriptions and cancel unused ones.",
+        "Shop around for the best deals on services."
+    ],
+    "Budgeting 📊": [
+        "Create a monthly budget and stick to it.",
+        "Always track your spending to avoid surprises.",
+        "Use cash for discretionary spending to avoid overspending.",
+        "Avoid lifestyle inflation as your income increases.",
+        "Plan for holidays or special events in advance."
+    ],
+    "Investing & Debt 📈": [
+        "Pay off high-interest debts as soon as possible.",
+        "Invest early to take advantage of compound interest.",
+        "Diversify your investment portfolio to reduce risk.",
+        "Set specific short-term and long-term financial goals.",
+        "Plan for retirement as early as possible."
+    ]
+}
 
-# List of financial tips
-financial_tips = [
-    "1. Create a monthly budget and stick to it.",
-    "2. Always track your spending to avoid surprises.",
-    "3. Save at least 20% of your income every month.",
-    "4. Use cash for discretionary spending to avoid overspending.",
-    "5. Pay off high-interest debts as soon as possible.",
-    "6. Set up automatic transfers to your savings account.",
-    "7. Create an emergency fund to cover at least 3 months of living expenses.",
-    "8. Don't buy things on impulse - always think before purchasing.",
-    "9. Review your subscriptions and cancel the ones you don't use.",
-    "10. Avoid lifestyle inflation - try to maintain your standard of living even when your income increases.",
-    "11. Invest early to take advantage of compound interest.",
-    "12. Diversify your investment portfolio to reduce risk.",
-    "13. Set specific financial goals, both short-term and long-term.",
-    "14. Use a financial app to help track your spending and investments.",
-    "15. Avoid taking loans for non-essential items.",
-    "16. Plan for retirement as early as possible.",
-    "17. Avoid paying for unnecessary insurance coverage.",
-    "18. Shop around for the best deals on services and products.",
-    "19. Set aside money for holidays or special events in advance.",
-    "20. Avoid co-signing loans for others to protect your credit."
-]
+with st.expander("Explore Financial Tips by Category"):
+    tab1, tab2, tab3 = st.tabs(["Savings", "Budgeting", "Investing"])
+    
+    with tab1:
+        for tip in tips_data["Savings 🏦"]:
+            st.info(tip)
+            
+    with tab2:
+        for tip in tips_data["Budgeting 📊"]:
+            st.success(tip)
+            
+    with tab3:
+        for tip in tips_data["Investing & Debt 📈"]:
+            st.warning(tip)
 
-# Function to give 3 random tips about finance to the user.
-def get_random_tips(tips):
-    return random.sample(tips, 3)
+# The final "Tip of the Day"
+st.markdown("---")
+all_tips = [tip for sublist in tips_data.values() for tip in sublist]
+st.chat_message("assistant").write(f"**Random Tip of the Day:** {random.choice(all_tips)}")
