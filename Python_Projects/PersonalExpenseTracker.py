@@ -1,13 +1,14 @@
 # Personal Expense Tracker
 
-# importing random 
+# importing random and streamlit 
 import random
+import streamlit as st
 
 # Expense
-Date = input("Enter the Date : ")
-Description = input("Enter the Description : ")
-Category = input("Enter the Category : ")
-Amount = float(input("Enter the Amount : "))
+Date = st.text_input("Enter the Date : ")
+Description = st.text_input("Enter the Description : ")
+Category = st.text_input("Enter the Category : ")
+Amount = float(st.text_input("Enter the Amount : "))
 
 # Creating a Dictionary for storing all the expenses done by user
 expenses = [
@@ -15,17 +16,17 @@ expenses = [
 ]
 
 # now to show all these inputs, using print function to display them all.
-print(Date)
-print(Description)
-print(Category)
-print(Amount)
+st.button(Date)
+st.button(Description)
+st.button(Category)
+st.button(Amount)
 
 # Creating a function that prints the summarization
 def summarize(Date, Category, Amount):
     return "Summary: On {}, you spent ${:.2f} on {}.".format(Date, Amount, Category)
 
 Summarization = summarize(Date, Category, Amount)
-print(Summarization)
+st.write(Summarization)
 
 # now to filter the expenses by date and category we use
 def filter(expenses, date=None, category=None):
@@ -36,20 +37,20 @@ def filter(expenses, date=None, category=None):
     return filtered
 
 # Now asking user for filtered options
-print('Filter Your Expenses : ')
-date = input("To use filter, Please Enter The Date in (YYYY/MM/DD) format or Press Enter Key to Skip : ").strip()
-category = input("To use filter, Enter the category to filter or press Enter Key to skip : ").strip()
+st.write('Filter Your Expenses : ')
+date = st.text_input("To use filter, Please Enter The Date in (YYYY/MM/DD) format or Press Enter Key to Skip : ").strip()
+category = st.text_input("To use filter, Enter the category to filter or press Enter Key to skip : ").strip()
 
 # Filtering the user expenses according to their input
 filtered_results = filter(expenses, date=date if date else None, category=category if category else None)
 
 # Now Printing the results
-print ("Filtered Expenses : ")
+st.write ("Filtered Expenses : ")
 if filtered_results:
     for expense in filtered_results:
-        print("Date : " + expense["date"] + ", Description : " + expense["description"] + ", Category : " + expense["category"] + ", Amount : $" + '{:.2f}'.format(expense["amount"]))
+        st.write("Date : " + expense["date"] + ", Description : " + expense["description"] + ", Category : " + expense["category"] + ", Amount : $" + '{:.2f}'.format(expense["amount"]))
 else :
-    print("No Expenses found! ")
+    st.write("No Expenses found! ")
 
 
 # Adding a list and a function for showing 3 financial tips to the user.
