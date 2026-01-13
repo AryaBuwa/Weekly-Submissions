@@ -49,7 +49,10 @@ I’ve officially moved from local scripts to the cloud! I just deployed my firs
 
 ## 📚 Attribution & Learning Resources
 I believe in standing on the shoulders of giants. My learning is powered by:
-* [FreeCodeCamp](https://www.freecodecamp.org/) | [Kaggle](https://www.kaggle.com/) | [YouTube](https://www.youtube.com/)
-* [Gemini](https://gemini.google.com/) | [ChatGPT](https://openai.com/chatgpt) 
+* [FreeCodeCamp](https://www.freecodecamp.org/) 
+  [Kaggle](https://www.kaggle.com/) 
+  [YouTube](https://www.youtube.com/)
+* [Gemini](https://gemini.google.com/) 
+  [ChatGPT](https://openai.com/chatgpt) 
 
 > *Note: These projects are for personal learning and educational purposes.🤗*
