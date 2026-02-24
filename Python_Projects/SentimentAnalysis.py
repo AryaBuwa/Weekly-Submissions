@@ -73,23 +73,32 @@ else:
     # Empty state message
     st.info("Scanner idle. Please enter a text transmission above to begin.")
 
-# 7. MINIMALIST FOOTER
+# 7. REFINED FOOTER WITH LINKS 
 st.markdown("---")
 st.markdown(
     """
+    <style>
+        .footer-link {
+            color: #888888; /* Matches the footer text color */
+            text-decoration: none; /* No underline by default */
+            font-weight: 500;
+            transition: color 0.2s ease-in-out;
+        }
+        .footer-link:hover {
+            color: #333333; /* Darkens slightly on hover */
+            text-decoration: underline; /* Reveals intent on hover */
+        }
+    </style>
+    
     <div style='display: flex; justify-content: space-between; color: #888888; font-size: 12px; font-family: -apple-system, sans-serif;'>
         <div>VibeScan v3.0</div>
         <div>
             Built by 
-            <a href='https://github.com/AryaBuwa' target='_blank' style='text-decoration: none; color: #007AFF; font-weight: 500;'>
+            <a href='https://github.com/your-username' target='_blank' class='footer-link'>
                 Arya
             </a>
         </div>
     </div>
-    <style>
-        /* Ensuring the link doesn't lose its color on hover/active states */
-        a:hover { color: #0051a8 !important; }
-    </style>
     """,
     unsafe_allow_html=True
 )
