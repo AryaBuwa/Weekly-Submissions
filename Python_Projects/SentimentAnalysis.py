@@ -77,10 +77,19 @@ else:
 st.markdown("---")
 st.markdown(
     """
-    <div style='display: flex; justify-content: space-between; color: #B0B0B0; font-size: 12px; font-family: -apple-system, sans-serif;'>
+    <div style='display: flex; justify-content: space-between; color: #888888; font-size: 12px; font-family: -apple-system, sans-serif;'>
         <div>VibeScan v3.0</div>
-        <div>Built by <span style='color: #707070; font-weight: 500;'>Arya</span></div>
+        <div>
+            Built by 
+            <a href='https://github.com/AryaBuwa' target='_blank' style='text-decoration: none; color: #007AFF; font-weight: 500;'>
+                Arya
+            </a>
+        </div>
     </div>
+    <style>
+        /* Ensuring the link doesn't lose its color on hover/active states */
+        a:hover { color: #0051a8 !important; }
+    </style>
     """,
     unsafe_allow_html=True
 )
