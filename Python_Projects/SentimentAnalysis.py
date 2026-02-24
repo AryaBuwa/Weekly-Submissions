@@ -1,59 +1,86 @@
-# A sentiment analysis code using nltk and VADER.
-
-# Importing NLTK library and its SentimentIntensityAnalyzer from vader
+import streamlit as st
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
 
-# Download the VADER Lexicon
-nltk.download('vader_lexicon')
+# 1. BRAIN (Optimized)
+@st.cache_resource
+def load_analyzer():
+    nltk.download('vader_lexicon', quiet=True)
+    return SentimentIntensityAnalyzer()
 
-# Initializing the Sentiment Analyzer
-analyser = SentimentIntensityAnalyzer()
+analyser = load_analyzer()
 
-# Initializing function for the Sentiment Analysis
-def sentiment_analyser():
-    print("Hello! I can tell if your sentence feels happy, sad, or neutral. Type 'exit' to stop chatting with me!")
+# 2. PAGE CONFIG (Full Width / No Sidebar)
+st.set_page_config(page_title="VibeScan AI", page_icon="📡", layout="centered")
 
-    while True:
-        # Taking input from the user
-        sentence = input('Please Type Something for further analysis: ')
-        if sentence.lower() == 'exit':
-            print('Thank You for your response!')
-            break
-        # Error handling
-        elif sentence.lower() == '':
-            print('Please enter any sentence for Sentiment Analysis.')
-            continue
+# Callback function to clear the input
+def clear_scanner():
+    st.session_state.vibe_input = ""
 
-        # Now analyzing the sentiment of the sentence
-        sentiment = analyser.polarity_scores(sentence)
+# 3. HEADER SECTION
+with st.container():
+    st.markdown("<h1 style='text-align: center;'>📡 VibeScan AI</h1>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: gray;'>VADER Lexicon v3.0 | Real-time Sentiment Decoder</p>", unsafe_allow_html=True)
+    st.divider()
 
-        # Extracting the compound score from the sentiment
-        compound = sentiment['compound']
+# 4. INPUT AREA
+sentence = st.text_input("ENTER SIGNAL TRANSMISSION", placeholder="Type your thoughts here...", key="vibe_input")
 
-        # Now deploying scores in conditions according to the sentence for Sentiment Analysis
-        if compound >= 0.7:
-            Sentiment_Analysis = 'Joyful 😄'
-        elif 0.5 <= compound < 0.7:
-            Sentiment_Analysis = 'Happy 😊'
-        elif 0.0 < compound < 0.5:
-            Sentiment_Analysis = 'Trustworthy 🤝'
-        elif compound == 0:
-            Sentiment_Analysis = 'Surprise 😲'
-        elif -0.3 < compound < 0:
-            Sentiment_Analysis = 'Anticipation 🤔'
-        elif -0.7 <= compound < -0.5:
-            Sentiment_Analysis = 'Angry 😡'
-        elif -0.5 <= compound < -0.3:
-            Sentiment_Analysis = 'Sad 😔'
-        else:
-            Sentiment_Analysis = 'Neutral'
+if sentence:
+    # CORE ENGINE
+    sentiment = analyser.polarity_scores(sentence)
+    compound = sentiment['compound']
 
-        # Displaying the results 
-        print('Sentiment Scores:', sentiment)
-        print('Sentiment Reaction:', Sentiment_Analysis)
-        print('-' * 50)
+    # SPECTRUM LOGIC
+    if compound >= 0.8: mood, icon, bg = "MAXIMUM JOY 🚀", "🔥", "success"
+    elif compound >= 0.4: mood, icon, bg = "RADIANT VIBES ✨", "☀️", "success"
+    elif compound >= 0.1: mood, icon, bg = "SOFT OPTIMISM 🕊️", "🌤️", "info"
+    elif compound > -0.1: mood, icon, bg = "OBJECTIVE DATA 🤖", "⚙️", "secondary"
+    elif compound > -0.4: mood, icon, bg = "MILD TENSION ⚡", "☁️", "warning"
+    elif compound > -0.8: mood, icon, bg = "DISTRESSED 🔥", "💥", "error"
+    else: mood, icon, bg = "TOXIC TURBULENCE ☢️", "☣️", "error"
 
+    # 5. THE RESULTS "CARD"
+    with st.container(border=True):
+        st.markdown(f"<h2 style='text-align: center;'>{icon} {mood}</h2>", unsafe_allow_html=True)
+        
+        # Color-coded Status
+        if bg == "success": st.success("Positive Frequency Detected")
+        elif bg == "warning": st.warning("Potential Turbulence Detected")
+        elif bg == "error": st.error("Critical Negative Interference")
+        else: st.info("Stable Signal")
 
-# Running the Sentiment Analysis tool
-sentiment_analyser()
+        # Visual Intensity Bar
+        strength = (compound + 1) / 2
+        st.progress(strength, text=f"Signal Intensity: {strength:.0%}")
+
+        # METRICS DASHBOARD
+        st.write("")
+        c1, c2, c3 = st.columns(3)
+        c1.metric("✅ Positive", f"{sentiment['pos']:.2%}")
+        c2.metric("⚪ Neutral", f"{sentiment['neu']:.2%}")
+        c3.metric("❌ Negative", f"{sentiment['neg']:.2%}")
+
+    # 6. FOOTER ACTIONS
+    st.write("")
+    with st.expander("🔍 Deep Telemetry Data"):
+        st.json(sentiment)
+
+    # Replaced st.rerun() with an on_click callback
+    st.button("🔄 Reset Scanner", use_container_width=True, on_click=clear_scanner)
+
+else:
+    # Empty state message
+    st.info("Scanner idle. Please enter a text transmission above to begin.")
+
+# 7. MINIMALIST FOOTER
+st.markdown("---")
+st.markdown(
+    """
+    <div style='display: flex; justify-content: space-between; color: #B0B0B0; font-size: 12px; font-family: -apple-system, sans-serif;'>
+        <div>VibeScan v3.0</div>
+        <div>Built by <span style='color: #707070; font-weight: 500;'>Arya</span></div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
