@@ -78,7 +78,7 @@ st.markdown("---")
 st.markdown(
     """
     <style>
-        .footer-link {
+        .footer-link {                              
             color: #888888; /* Matches the footer text color */
             text-decoration: none; /* No underline by default */
             font-weight: 500;
@@ -94,7 +94,7 @@ st.markdown(
         <div>VibeScan v3.0</div>
         <div>
             Built by 
-            <a href='https://github.com/your-username' target='_blank' class='footer-link'>
+            <a href='https://github.com/AryaBuwa ' target='_blank' class='footer-link'>
                 Arya
             </a>
         </div>
