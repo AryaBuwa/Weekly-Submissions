@@ -100,7 +100,7 @@ st.markdown(
         <div>VibeScan v3.0</div>
         <div>
             Built by 
-            <a href='https://github.com/your-username' target='_blank' class='footer-link'>
+            <a href='https://github.com/AryaBuwa ' target='_blank' class='footer-link'>
                 Arya
             </a>
         </div>
